@@ -1,0 +1,33 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"usingComponents": {
+					"navigation-bar": "/components/navigation-bar/navigation-bar",
+					"agent-ui": "/components/agent-ui/index"
+				}
+			}
+		}
+	],
+	"style": "v2",
+	"renderer": "skyline",
+	"rendererOptions": {
+		"skyline": {
+			"defaultDisplayBlock": true,
+			"defaultContentBox": true,
+			"tagNameStyleIsolation": "legacy",
+			"disableABTest": true,
+			"sdkVersionBegin": "3.0.0",
+			"sdkVersionEnd": "15.255.255"
+		}
+	},
+	"componentFramework": "glass-easel",
+	"sitemapLocation": "sitemap.json",
+	"lazyCodeLoading": "requiredComponents",
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationStyle": "custom"
+	},
+	"subPackages": []
+}
